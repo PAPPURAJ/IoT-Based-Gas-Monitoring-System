@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=62:0C:67:AD:1F:B8:C0:D2:82:32:89:E4:7C:AD:49:AE:70:17:53:E5%3Bcom.blogspot.rajbtc.gasmonitoring
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.blogspot.rajbtc.gasmonitoring
+
+    SHA-1 certificate fingerprint:
+    62:0C:67:AD:1F:B8:C0:D2:82:32:89:E4:7C:AD:49:AE:70:17:53:E5
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBJJFxmwizFS_Z_EnZCqdcI8VJNSxbhe_o</string>
+</resources>

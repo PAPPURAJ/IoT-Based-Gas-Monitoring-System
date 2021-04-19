@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.vaibhavlakhera.circularprogressview.CircularProgressView
+                android:id="@+id/co2Pb"
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                app:animate="true"
+                app:animateDuration="600"
+                app:fillColor="@color/purple_500"
+                app:progress="10"
+                app:progressColor="#FFF"
+                app:progressRoundCap="true"
+                app:progressTextColor="#FFF"
+                app:progressTextEnabled="true"
+                app:progressTextSize="32sp"
+                app:progressTextType="progress"
+                app:progressWidth="12dp"
+                app:startAngle="270"
+                app:total="100"
+                app:totalColor="#9C27B0"
+                app:totalWidth="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="CO2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.vaibhavlakhera.circularprogressview.CircularProgressView
+                android:id="@+id/coPb"
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                app:animate="true"
+                app:animateDuration="600"
+                app:fillColor="@color/purple_500"
+                app:progress="10"
+                app:progressColor="#FFF"
+                app:progressRoundCap="true"
+                app:progressTextColor="#FFF"
+                app:progressTextEnabled="true"
+                app:progressTextSize="32sp"
+                app:progressTextType="progress"
+                app:progressWidth="12dp"
+                app:startAngle="270"
+                app:total="100"
+                app:totalColor="#9C27B0"
+                app:totalWidth="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="CO"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.vaibhavlakhera.circularprogressview.CircularProgressView
+                android:id="@+id/ch4Pb"
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                app:animate="true"
+                app:animateDuration="600"
+                app:fillColor="@color/purple_500"
+                app:progress="10"
+                app:progressColor="#FFF"
+                app:progressRoundCap="true"
+                app:progressTextColor="#FFF"
+                app:progressTextEnabled="true"
+                app:progressTextSize="32sp"
+                app:progressTextType="progress"
+                app:progressWidth="12dp"
+                app:startAngle="270"
+                app:total="100"
+                app:totalColor="#9C27B0"
+                app:totalWidth="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="CH4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.vaibhavlakhera.circularprogressview.CircularProgressView
+                android:id="@+id/tempPv"
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                app:animate="true"
+                app:animateDuration="600"
+                app:fillColor="@color/purple_500"
+                app:progress="10"
+                app:progressColor="#FFF"
+                app:progressRoundCap="true"
+                app:progressTextColor="#FFF"
+                app:progressTextEnabled="true"
+                app:progressTextSize="32sp"
+                app:progressTextType="progress"
+                app:progressWidth="12dp"
+                app:startAngle="270"
+                app:total="100"
+                app:totalColor="#9C27B0"
+                app:totalWidth="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Temp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
